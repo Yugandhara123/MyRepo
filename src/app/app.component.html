@@ -1,0 +1,34 @@
+<!--<div class="container">
+  <div>
+    <button  (click)="incCount()" class="{{liketext}}">like | <span class="likes-counter">{{lcount}}</span></button>&nbsp;&nbsp;
+    <button  (click)="decCount()" class="{{disliketext}}">Dislike | <span class="dislikes-counter">{{dcount}}</span></button>
+  </div>
+</div>-->
+
+    
+<!--<div class="container">
+   <div>
+     <button (click)="incCount()" class="{{liketext}}">like | <span class="likes-counter">{{lcount}}</span></button>&nbsp;&nbsp;
+     </div>  
+
+</div>-->
+
+<!--<div class="container">
+   <div>
+       <button (click)="incCount()" class="{{liketext}}">like|<span class="likes-counter">{{lcount}}</span></button>&nbsp;&nbsp;
+       <button (click)="decCount()" class="{{disliketext}}">dislike|<span class="dislikes-counter">{{dcount}}</span></button>
+     </div>  
+
+</div>-->
+
+<!-- <div *ngIf="false">LNT</div> -->
+
+<h1>{{title}}</h1>
+<h2>My favourite hero is:{{myHero}}</h2>
+<p>Heroes:</p>
+<ul>
+  <li *ngFor="let hero of heroes">
+    {{hero}}
+  </ul>
+  <h1>Hi</h1>
+<router-outlet></router-outlet>
